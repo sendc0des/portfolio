@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Education/Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div>
+                <h1>I am Arjun Shandilya</h1>
+                <p class="tagline">And this is my portfolio website.</p>
+            </div>
+            <img src="images/photo.jpg" alt="A photo of me" style="width:200px;">
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a first year student at Delhi Technological University.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article class="project">
+                <img src = "images/digits.png" alt = "handwritten digits">
+                <div class = project-content> 
+                    <h3>Handwritten Digit Recognition</h3>
+                    <p>This project is a complete, from-scratch implementation of a neural network for handwritten digit recognition. Instead of using libraries like TensorFlow or PyTorch, I built the core components manually. This included designing custom Layer and Sequential classes, which inherit from a base nn.Module to replicate the modularity of modern deep learning frameworks.</p>
+                    <a href="https://github.com/sendc0des/handwritten-digit-recognition" target="_blank">View Project</a>
+                </div>
+            </article>
+            <article class="project">
+                <img src = "images/board.png" alt = "chess board">
+                <div class = "project-content">
+                    <h3>Chess Engine</h3>
+                    <p>This project is a fully functional chess engine created using only Python. I implemented the complete game logic from the ground up, including board representation, move validation (with special moves like castling and en passant), check/checkmate detection.</p>
+                    <a href="https://github.com/sendc0des/chess-engine" target="_blank">View Project</a>
+                </div>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>You can find me on:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/arjunsh05/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/sendc0des" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Arjun Shandilya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
